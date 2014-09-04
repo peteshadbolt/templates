@@ -1,0 +1,49 @@
+\usepackage{graphicx,graphics,epsfig}   % Include figure files
+\usepackage{dcolumn}    % Align table columns on decimal point
+\usepackage{bm}         % bold math
+\usepackage{amsmath}    % need for subequations
+\usepackage{subfigure}  % use for side-by-side figures
+\usepackage{times,natbib}
+\usepackage{amsmath,amsfonts,amssymb,graphics,graphicx,epsfig,color,times,natbib}
+\usepackage{xcolor}
+%\usepackage[usenames]{color}
+
+\addtolength\textheight{15mm}
+
+% Environment commands
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+\newcommand{\ban}{\begin{eqnarray*}}
+\newcommand{\ean}{\end{eqnarray*}}
+%\newcommand{\identity}{1\!\!1}
+
+% Quantum
+\newcommand{\braket}[2]{\mbox{$ \langle #1 | #2 \rangle $}}
+\newcommand{\sandwich}[3]{\mbox{$ \langle #1 | #2 | #3 \rangle $}}
+\newcommand{\ket}[1]{\mbox{$ | #1 \rangle $}}
+\newcommand{\bra}[1]{\mbox{$ \langle #1 | $}}
+\newcommand{\com}[2]{\left[ #1\,,\,#2 \right]}
+\newcommand{\acom}[2]{\left\{ #1\,,\,#2 \right\}}
+\newcommand{\si}{\sigma}
+
+\newcommand{\sBox}[1]{
+{\begin{center}\fbox{\begin{minipage}{.95\columnwidth}\small
+#1\end{minipage}}\end{center}}}
+
+\renewcommand{\S}{\mathcal{S}}
+\newcommand{\unit}{\mathbf{1}}
+\newcommand{\dd}{{\rm d}}
+\newcommand{\proj}[1]{\mbox{$ | #1 \rangle\!\langle #1 | $}}
+\newcommand{\mea}{\{\vec{a}_x,\vec{b}_y\}}
+
+\newcommand{\note}[1]{\textcolor{red}{#1}}
+\newcommand{\gr}[1]{\textcolor{gray}{#1} }
+
+
+% paper specific
+\newcommand{\astate}{\hat{\rho}_a}
+\newcommand{\bstate}{\hat{\rho}_b}
+\newcommand{\cstate}{\hat{\rho}_c}
+
