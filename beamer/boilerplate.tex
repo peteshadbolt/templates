@@ -1,0 +1,30 @@
+\usepackage{mathptmx}
+\usepackage{braket}
+\usepackage{ulem}
+\usefonttheme{serif}
+
+\definecolor{red}{rgb}{0.7,0.0,0.0}
+\definecolor{green}{rgb}{0.0,0.3,0.0}
+\definecolor{blue}{rgb}{0.2,0.2,0.8}
+\definecolor{bb}{rgb}{0.2,0.2,0.2}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+
+\renewcommand{\thefootnote}{}
+\setbeamerfont{footnote}{size=\tiny}
+\renewcommand*{\footnoterule}{}
+\setbeamertemplate{navigation symbols}{}
+
+\newenvironment{changemargin}{
+    \vspace{-0.3in}
+    \begin{list}{}{
+        \setlength{\leftmargin}{-6mm}
+        \setlength{\rightmargin}{0cm}
+        \setlength{\listparindent}{\parindent}
+        \setlength{\itemindent}{\parindent}
+        \setlength{\parsep}{\parskip}
+    }
+\item[]}{\end{list}}
+
+\setbeamerfont{frametitle}{size=\small}
+\setbeamercolor{frametitle}{fg=gray}
+\setbeamercolor{title}{fg=black}
